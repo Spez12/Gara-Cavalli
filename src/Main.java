@@ -77,6 +77,7 @@ import java.util.Scanner;
             System.out.println("Nessun cavallo ha terminato la gara");
         }
 
+
         System.out.println("\nClassifica finale:");
         for (Cavallo c : cavalli) {
             String stato = c.isFinito() ? "Arrivato " : "Infortunato ";
