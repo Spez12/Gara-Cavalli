@@ -65,7 +65,6 @@ public class Cavallo implements Runnable {
         }
     }
 
-
     public String getNome() {
         return nome;
     }
