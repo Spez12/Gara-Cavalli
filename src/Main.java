@@ -3,11 +3,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Classe principale che gestisce la gara dei cavalli.
- * Dimostra l'uso di Runnable, Thread, interrupt casuale, classifica e sincronizzazione.
- */
-public class Main {
+ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         List<Thread> threads = new ArrayList<>();
